@@ -1,0 +1,126 @@
+{
+    "main": {
+      "name":"andi",
+      "occupation":"aspiring software engineer",
+      "description":"currently studying computer science and art/visual technology at george mason university.\nthis is my personal website where you can learn more about me and explore some of my creations",
+      "image":"favicon.jpg",
+      "bio":"I have 4+ years of experience with back end development, and I am currently expanding on my skills in full-stack development and machine learning. I enjoy anything that allows me to exercise my creativity- from music to art to programming!",
+      "email": "amotas2@gmu.edu",
+      "phone": "571-277-5109",
+      "address":{
+        "city":"northern virginia"
+      },
+      "website": "http://www.aka-andi.github.io",
+      "resumedownload":"https://drive.google.com/file/d/1jlRSBUBgI0JStEHdG6rP2iyHL37RnrCH/view",
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/andrea-motas/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"http://instagram.com/andiiuki",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"http://github.com/aka-andi",
+          "className":"fa fa-github"
+        },
+        {
+          "name":"codepen",
+          "url":"http://skype.com",
+          "className":"fa fa-skype"
+        }
+      ]
+    },
+    "resume":{
+      "skillmessage":"an overview of my technical skills with experience/knowledge levels...",
+      "education":[
+        {
+          "school":"b.s. computer science",
+          "degree":"george mason university",
+          "graduated":" aug 2018 - dec 2021",
+          "description":"gpa: 3.78, minor in art and visual technology, honors college, volgenau school of engineering dean’s list, favorite courses: intro to artificial intelligence, software engineering, computer systems and programming, digital electronics"
+        }
+      ],
+      "work":[
+        {
+          "company":"software engineering intern",
+          "title":"pragmatics, inc.",
+          "years":"june 2020 - aug 2020",
+          "description":"developed the back end for a forum web application that performs automatic tagging - created microservices using a rest api and integrated apache kafka to optimize data flows - built using spring boot, deployed with docker"
+        },
+        {
+          "company":"undergraduate teaching assistant",
+          "title":"george mason university",
+          "years":"jan 2019 - now",
+          "description":"assist in labs for cs 211 (java) and cs 262 (c) - provide guidance for 300+ students to resolve issues with their work through piazza."
+        },
+        {
+          "company":"sales associate and instrument repair assistant",
+          "title":"day violins, llc",
+          "years":"aug 2017 - aug 2019",
+          "description":"provided customer service for instrument rentals while demonstrating expertise in store products - conducted maintenance, repairs, and set-ups on hundreds of instruments."
+        }
+      ],
+      "skills":[
+        {
+          "name":"java",
+          "level":"85%"
+        },
+        {
+          "name":"python",
+          "level":"70%"
+        },
+        {
+          "name":"c",
+          "level":"65%"
+        },
+        {
+          "name":"javascript",
+          "level":"45%"
+        },
+        {
+          "name":"html/css",
+          "level":"40%"
+        }
+      ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"projects",
+          "category":"a collection of projects I have coded up in my free time as well as for some school courses.",
+          "image":"filler.JPG",
+          "url":"/#/projects"
+        },
+        {
+          "title":"art",
+          "category":"works I've made in the art courses I've taken at gmu as well as digital works and paintings I've made in my free time.",
+          "image":"filler.JPG",
+          "url":"https://aka-andi.github.io/"
+        },
+        {
+          "title":"music",
+          "category":"string arrangements and transcriptions of pop, film, and game music I wrote in my pre-college years. performed by groups across the country.",
+          "image":"filler.JPG",
+          "url":"https://aka-andi.github.io/"
+        },
+        {
+          "title":"design",
+          "category":"visual designs I have created for the organizations I am involved in as well as my personal sticker business and a family cookbook",
+          "image":"filler.JPG",
+          "url":"https://aka-andi.github.io/"
+        },
+        {
+          "title":"esl",
+          "category":"a collection of lesson plans and materials that I created for my intermediate adult esl class taught as a lead teacher for loudoun literacy council.",
+          "image":"filler.JPG",
+          "url":"https://aka-andi.github.io/"
+        }
+      ]
+    }
+  }
+  
