@@ -5,7 +5,6 @@
 ## tools used
 * react.js, bootstrapped with [create-react-app](https://github.com/facebook/create-react-app).
 * deployed using [gh-pages](https://www.npmjs.com/package/gh-pages).
-* basic json input data template forked from [tim baker](https://github.com/tbakerx/react-resume-template).
 
 ## development todo:
 
