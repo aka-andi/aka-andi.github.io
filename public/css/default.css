@@ -590,7 +590,7 @@ input[type="checkbox"] { display: inline; }
 --------------------------------------------------------------- */
 .row {
    width: 96%;
-   max-width: 1020px;
+   max-width: 1680px;
    margin: 0 auto;
 }
 /* fixed width for IE8 */
@@ -612,7 +612,7 @@ input[type="checkbox"] { display: inline; }
 
 .column, .columns {
    position: relative;
-   padding: 0 20px;
+   padding: 0 10px;
    min-height: 1px;
    float: left;
 }

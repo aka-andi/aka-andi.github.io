@@ -93,31 +93,31 @@
         {
           "title":"projects",
           "category":"a collection of projects I have coded up in my free time as well as for some school courses.",
-          "image":"filler.JPG",
+          "image":"github.jpg",
           "url":"/#/projects"
         },
         {
           "title":"art",
-          "category":"works I've made in the art courses I've taken at gmu as well as digital works and paintings I've made in my free time.",
-          "image":"filler.JPG",
+          "category":"works I've made in the art courses I've taken at gmu as well as digital works and paintings I've made in my free time and for commissions.",
+          "image":"paintings.jpg",
           "url":"https://aka-andi.github.io/"
         },
         {
           "title":"music",
           "category":"string arrangements and transcriptions of pop, film, and game music I wrote in my pre-college years. performed by groups across the country.",
-          "image":"filler.JPG",
+          "image":"music.jpg",
           "url":"https://aka-andi.github.io/"
         },
         {
           "title":"design",
-          "category":"visual designs I have created for the organizations I am involved in as well as my personal sticker business and a family cookbook",
-          "image":"filler.JPG",
+          "category":"visual designs I have created for the organizations I am involved in as well as my own sticker business and family cookbook",
+          "image":"designs.jpg",
           "url":"https://aka-andi.github.io/"
         },
         {
           "title":"esl",
-          "category":"a collection of lesson plans and materials that I created for my intermediate adult esl class taught as a lead teacher for loudoun literacy council.",
-          "image":"filler.JPG",
+          "category":"a collection of lesson plans and materials that I made for my intermediate adult esl class I taught as a lead teacher for loudoun literacy council.",
+          "image":"esl.jpg",
           "url":"https://aka-andi.github.io/"
         }
       ]
