@@ -22,7 +22,8 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { 
+   background: linear-gradient(-20deg, #dbcdff 0%, #e6d0f7 100%, #f6d7fd 100%); }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -235,7 +236,6 @@ ul#nav li.brand h2{ color: #403952; font-weight: bold; padding: 8px 45px}
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: linear-gradient(-20deg, #d4c3ff 0%, #e6d0f7 100%, #f7d9ff 100%);;
    padding-top: 70px;
    padding-bottom: 20px;
    overflow: hidden;
@@ -416,7 +416,6 @@ ul#nav li.brand h2{ color: #403952; font-weight: bold; padding: 8px 45px}
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: linear-gradient(-20deg, #6750a0 0%, #403952 100%, #403952 100%);
    padding-top: 90px;
    padding-bottom: 90px;
 }
@@ -426,7 +425,7 @@ ul#nav li.brand h2{ color: #403952; font-weight: bold; padding: 8px 45px}
    text-align: center;
    margin-bottom: 48px;
    font-weight: bold;
-   color: #e6d0f7;
+   color: #403952;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
@@ -496,13 +495,15 @@ ul#nav li.brand h2{ color: #403952; font-weight: bold; padding: 8px 45px}
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px "Inconsolata", monospace;
+   font: 21px "Inconsolata", monospace;
    font-weight: bold;
+   line-height: 40px;
    color: #ffffff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px "Inconsolata", monospace;
+   font: 18px "Inconsolata", monospace;
    color: #ffffff;
+   line-height: 20px;
    margin-bottom: 0;
 }
 
@@ -729,7 +730,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 footer { 
-   background: linear-gradient(-20deg, #a087e0 0%, #e6d0f7 100%, #f5cfff 100%);
+   background: #a087e0;
    font-size: 18px;
    text-align: center;
    position: relative;
