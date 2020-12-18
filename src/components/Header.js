@@ -25,8 +25,8 @@ class Header extends Component {
                   <li className="brand"><h2>andi motas</h2></li>
                   <li className="current"><a className="smoothscroll" href="#home">home</a></li>
                   <li><a className="smoothscroll" href="#about">about</a></li>
+                  <li><a className="smoothscroll" href="#portfolio">portfolio</a></li>
                   <li><a className="smoothscroll" href="#resume">experience</a></li>
-                  <li><a className="smoothscroll" href="#portfolio">works</a></li>
                </ul>
 
             </nav>

@@ -43,8 +43,8 @@ class App extends Component {
           <div className="App">
             <Header data={this.state.resumeData.main} />
             <About data={this.state.resumeData.main} />
-            <Resume data={this.state.resumeData.resume} />
             <Portfolio data={this.state.resumeData.portfolio} />
+            <Resume data={this.state.resumeData.resume} />
             <Footer data={this.state.resumeData.footer} />
           </div>
         </Switch>
