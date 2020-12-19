@@ -91,8 +91,8 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a { color: #403952; }
+header .social li a:hover { color: #a442c2; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -219,10 +219,10 @@ ul#nav li.brand h2{ color: #403952; font-weight: bold; padding: 8px 45px}
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #403952;
 }
 #about .download .button:hover {
-   background: #fff;
+   background: #e6d0f7;
    color: #2B2B2B;
 }
 #about .download .button i {
