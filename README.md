@@ -13,7 +13,7 @@
 - [X] navbar that links to different sections on homepage
 - [X] navbar minimizes to hamburger menu when on mobile device
 - [X] scale to fit entire window (test on mobile)
-- [ ] include social media icons w/ links
+- [X] include social media icons w/ links
 
 ### about
 - [X] picture with short bio
@@ -26,13 +26,13 @@
 - [ ] possibly animate the bar levels
 
 ### portfolio
-- [ ] gallery highlighting different categories (projects, music, art, designs, esl, workshops)
-- [ ] links to separate pages per category
+- [X] gallery highlighting different categories (projects, music, art, designs, esl, workshops)
+- [X] links to separate pages per category
 - [ ] complete pages for each:
-    - [ ] projects
+    - [X] projects
     - [ ] music
     - [ ] art
     - [ ] design
-    - [ ] esl
+    - [X] esl
     - [ ] workshops
 - [ ] possibly animate/modify gallery into a carousel
