@@ -100,19 +100,19 @@
           "title":"art",
           "category":"works I've made in the art courses I've taken at gmu as well as digital works and paintings I've made in my free time and for commissions.",
           "image":"paintings.jpg",
-          "url":"/#art"
+          "url":"/art.html"
         },
         {
           "title":"music",
           "category":"string arrangements and transcriptions of pop, film, and game music I wrote in my pre-college years. performed by groups across the country.",
           "image":"music.jpg",
-          "url":"/#music"
+          "url":"/music.html"
         },
         {
           "title":"design",
           "category":"visual designs I have created for the organizations I am involved in as well as my own sticker business and family cookbook",
           "image":"designs.jpg",
-          "url":"/#design"
+          "url":"/design.html"
         },
         {
           "title":"esl",
