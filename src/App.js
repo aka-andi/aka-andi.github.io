@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import $ from 'jquery';
 import Header from './components/Header';
 import About from './components/About';
@@ -38,17 +37,13 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        <Switch>
-          <div className="App">
-            <Header data={this.state.resumeData.main} />
-            <About data={this.state.resumeData.main} />
-            <Portfolio data={this.state.resumeData.portfolio} />
-            <Resume data={this.state.resumeData.resume} />
-            <Footer data={this.state.resumeData.footer} />
-          </div>
-        </Switch>
-      </Router>
+      <div className="App">
+        <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Resume data={this.state.resumeData.resume} />
+        <Footer data={this.state.resumeData.footer} />
+      </div>
     );
   }
 }
