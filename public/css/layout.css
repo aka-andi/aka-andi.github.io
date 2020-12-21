@@ -144,6 +144,10 @@ body {
    opacity: 0.3;
  }
 
+ .img-wrap:hover video{
+   opacity: 0.3;
+ }
+
  .img-wrap:hover .caption{
    opacity: 1;
  }
