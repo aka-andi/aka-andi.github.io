@@ -2,9 +2,12 @@
 
 (a work in progress)
 
+you can view my website [here](https://aka-andi.github.io).
+
 ## tools used
 * react.js, bootstrapped with [create-react-app](https://github.com/facebook/create-react-app).
 * deployed using [gh-pages](https://www.npmjs.com/package/gh-pages).
+* downloaded icons from [font-awesome](https://fontawesome.com/v4.7.0/).
 
 ## development todo:
 
@@ -14,11 +17,11 @@
 - [X] navbar minimizes to hamburger menu when on mobile device
 - [X] scale to fit entire window (test on mobile)
 - [X] include social media icons w/ links
+- [ ] fade-in animation
 
 ### about
 - [X] picture with short bio
 - [X] email + resume
-- [ ] animate the picture + resume button
 
 ### experience
 - [X] like a prettier version of resume
@@ -34,5 +37,4 @@
     - [ ] art
     - [ ] design
     - [X] esl
-    - [ ] workshops
-- [ ] possibly animate/modify gallery into a carousel
+    - [X] workshops
