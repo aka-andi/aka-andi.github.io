@@ -106,6 +106,22 @@ body {
    height: 400px;
    object-fit: cover;
  }
+ .workshop h2{
+    font: 20px "Inconsolata", monospace;
+    color: #403952;
+    margin: 0 auto 8px auto;
+    width: 70%;
+    text-align: center;
+    line-height: 30px;
+ }
+ 
+ .workshop p{
+    font: 16px "Inconsolata", monospace;
+    color: #403952;
+    margin: 0 auto 18px auto;
+    width: 70%;
+    line-height: 30px;
+ }
 
  
 
