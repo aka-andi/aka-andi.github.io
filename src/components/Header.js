@@ -4,10 +4,6 @@ class Header extends Component {
    render() {
 
       if (this.props.data) {
-         var name = this.props.data.name;
-         var occupation = this.props.data.occupation;
-         var description = this.props.data.description;
-         var city = this.props.data.address.city;
          var networks = this.props.data.social.map(function (network) {
             return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
          })
@@ -25,16 +21,15 @@ class Header extends Component {
                   <li className="brand"><h2>andi motas</h2></li>
                   <li className="current"><a className="smoothscroll" href="#home">home</a></li>
                   <li><a className="smoothscroll" href="#about">about</a></li>
-                  <li><a className="smoothscroll" href="#portfolio">portfolio</a></li>
-                  <li><a className="smoothscroll" href="#resume">experience</a></li>
                </ul>
 
             </nav>
 
+
             <div className="row banner">
                <div className="banner-text">
-                  <h1 className="responsive-headline">hi, I'm {name}!</h1>
-                  <h3>I'm an <span>{occupation}</span> based in {city}, <br />{description}.</h3>
+                  <h1>ａｎｄｉ【＆ ｅ】 ⁺₊</h1>
+                  <h3><span>software engineer</span> with a passion for <span>design</span> and <span>data</span></h3>
                   <ul className="social">
                      {networks}
                   </ul>

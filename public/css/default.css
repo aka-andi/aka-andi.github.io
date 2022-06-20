@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 /*
 =====================================================================
 *   Ceevee v1.0 Default Stylesheet
@@ -78,7 +78,7 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: "Inconsolata", monospace;
+   font-family: "Nunito Sans";
    font-size: 1em;
 }
 
@@ -143,12 +143,12 @@ html {
 }
 
 body {
-   background: #fff;
-   font-family: "Inconsolata", monospace;
+   background: #babaff;
+   font-family: 'Nunito Sans';
+   color: #4d4594;
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #403952;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -159,8 +159,8 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
-	font-family: "Inconsolata", monospace;
+   color: #4d4594;
+	font-family: "Nunito Sans";
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -173,16 +173,6 @@ h6 { font-size: 14px; line-height: 30px; }
 
 p { margin: 0 0 30px 0; }
 p img { margin: 0; }
-p.lead {
-   font: 19px/36px 'opensans-light', sans-serif;
-   margin-bottom: 18px;
-}
-
-/* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'opensans-italic', sans-serif; }
-strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
-small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */
 blockquote {
@@ -196,14 +186,14 @@ blockquote:before {
    font-size: 80px;
    line-height: 0px;
    margin: 0;
-   font-family: "Inconsolata", monospace;
+   font-family: "Nunito Sans";
 
    position: absolute;
    top:  30px;
 	left: 0;
 }
 blockquote p {
-   font-family: "Inconsolata", monospace;
+   font-family: "Nunito Sans";
    padding: 0;
    font-size: 18px;
    line-height: 36px;
@@ -238,7 +228,7 @@ blockquote cite a:visited { color: #8B9798; border: none }
 	opacity: 0.45;
 	position: absolute;
 	font-size: 80px;
-   font-family: "Inconsolata", monospace;
+   font-family: "Nunito Sans";
 }
 .pull-quote:before {
 	content: "\201C";
@@ -259,7 +249,7 @@ blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Abbreviations */
 abbr {
-   font-family: "Inconsolata", monospace;
+   font-family: "Nunito Sans";
 	font-variant: small-caps;
 	text-transform: lowercase;
    letter-spacing: .5px;
@@ -273,7 +263,7 @@ abbr:hover { cursor: help; }
 	margin: 0;
 	padding: 14px 6px 0 0;
 	font-size: 84px;
-	font-family: /* Copperplate */ "Inconsolata", monospace;
+	font-family: /* Copperplate */ "Nunito Sans";
    line-height: 60px;
 	text-indent: 0;
 	background: transparent;
@@ -342,7 +332,7 @@ li { line-height: 18px; margin-bottom: 12px; }
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 22px;
-	font-family: "Inconsolata", monospace;
+	font-family: "Nunito Sans";
    border: none;
    color: #313131;
 }
@@ -353,7 +343,7 @@ li { line-height: 18px; margin-bottom: 12px; }
 	display: block;
 	margin: 6px 0 0 0;
 	font-size: 13px;
-	font-family: "Inconsolata", monospace;
+	font-family: "Nunito Sans";
    color: #8B9798;
 }
 
@@ -409,7 +399,6 @@ dd { margin: 0 0 0 20px; }
    padding: 0;
 }
 .pagination .page-numbers {
-   font: 15px/18px 'opensans-bold', sans-serif;
    display: inline-block;
    padding: 6px 10px;
    margin-right: 3px;
@@ -460,7 +449,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-   font: 16px/30px "Inconsolata", monospace;
+   font: 16px/30px "Nunito Sans";
    background: #11ABB0;
    display: inline-block;
 	text-decoration: none;
@@ -561,7 +550,7 @@ textarea { min-height: 220px; }
 
 label,
 legend {
-   font: 16px/24px "Inconsolata", monospace;
+   font: 16px/24px "Nunito Sans";
 	margin: 12px 0;
    color: #3d4145;
    display: block;
@@ -569,7 +558,7 @@ legend {
 label span,
 legend span {
 	color: #8B9798;
-   font: 14px/24px "Inconsolata", monospace;
+   font: 14px/24px "Nunito Sans";
 }
 
 input[type="checkbox"],

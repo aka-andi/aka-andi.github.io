@@ -5,17 +5,21 @@ class About extends Component {
       return (
          <section id="about">
             <div className="row">
-               <div className="three columns">
-                  <img className="profile-pic" src="./../../images/favicon.jpg?" alt="andi motas" />
-               </div>
                <div className="nine columns main-col">
-                  <h2>andi motas</h2>
+                  <h2>hello there!  i'm andi.</h2>
 
-                  <span><p>I have 4+ years of experience with back end development, and I am currently expanding on my skills in full-stack development and machine learning. I enjoy anything that allows me to exercise my creativity- from music to art to programming!</p></span>
+                  <span><p>
+                  i graduated from george mason university with a degree in computer science minoring in art/visual 
+                  technology. my experience is mostly in back end development but currently expanding on 
+                  full-stack and data engineering skills. i am a big data engineer for oracle opower where i 
+                  develop software that helps people reduce their energy usage through intersecting data analytics 
+                  and behavioral science. in my free time i enjoy making art, playing instruments, helping out in the 
+                  community, and exploring the latest in tech.
+                  </p></span>
                   <div className="row">
                      <div className="columns contact-details">
                         <h2>let's talk!</h2>
-                        <span><p>just shoot me an email at amotas2@gmu.edu</p></span><br />
+                        <span><p>you can reach me at amotas2@gmu.edu</p></span><br />
                      </div>
                      <div className="columns download">
                         <p>
