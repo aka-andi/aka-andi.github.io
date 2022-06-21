@@ -286,7 +286,7 @@ header .scrolldown a:hover {
    top: 0;
 }
 
-#nav-wrap .nav .smoothscroll:hover {
+#nav-wrap .nav :hover {
    color: #ffffff;
 }
 
@@ -352,20 +352,32 @@ ul#nav li.brand h2 {
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
+
+#about:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+
 #about {
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: calc(200% / 3);
+   padding-bottom: 30px;
+   text-align: left;
 }
 
 #about a,
 #about a:visited {
-   color: #fff;
+   text-decoration: underline;
+   color: #8458aa;
 }
 
 #about a:hover,
 #about a:focus {
-   color: #11ABB0;
+   color: #d39cf4;
 }
 
 #about h2 {
@@ -388,30 +400,9 @@ ul#nav li.brand h2 {
    width: 41.66667%;
 }
 
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
-
 #about .main-col {
    padding-right: 5%;
 }
-
-#about .download .button {
-   margin-top: 6px;
-   background: #4d4594;
-}
-
-#about .download .button:hover {
-   background: #e6d0f7;
-   color: #2B2B2B;
-}
-
-#about .download .button i {
-   margin-right: 2px;
-   font-size: 20px;
-}
-
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section

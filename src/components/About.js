@@ -4,31 +4,18 @@ class About extends Component {
    render() {
       return (
          <section id="about">
-            <div className="row">
-               <div className="nine columns main-col">
-                  <h2>hello there!  i'm andi.</h2>
-
-                  <span><p>
-                  i graduated from george mason university with a degree in computer science minoring in art/visual 
-                  technology. my experience is mostly in back end development but currently expanding on 
-                  full-stack and data engineering skills. i am a big data engineer for oracle opower where i 
-                  develop software that helps people reduce their energy usage through intersecting data analytics 
-                  and behavioral science. in my free time i enjoy making art, playing instruments, helping out in the 
-                  community, and exploring the latest in tech.
-                  </p></span>
-                  <div className="row">
-                     <div className="columns contact-details">
-                        <h2>let's talk!</h2>
-                        <span><p>you can reach me at amotas2@gmu.edu</p></span><br />
-                     </div>
-                     <div className="columns download">
-                        <p>
-                           <a href="https://drive.google.com/file/d/1QZs1Er7rOgSVxN4J0ArrB2yeLPclyMnb/view" className="button">résumé</a>
-                        </p>
-                     </div>
-                  </div>
-               </div>
+            <div className="row about">
+               <h2>hello there!  i'm andi.</h2>
+               <span><p>
+                  i graduated from george mason university with a degree in computer science minoring in art/visual
+                  technology. my experience is mostly in back end development but currently expanding on
+                  full-stack and data engineering skills. i am a big data engineer at oracle opower where i
+                  develop software that helps people reduce their energy usage. in my free time i enjoy making art, playing instruments, helping out in the
+                  community, and exploring the latest in tech.</p>
+                  <p>you can reach me at <a href="mailto:amotas2@gmu.edu">amotas2@gmu.edu</a> <br></br>(ﾉ´ヮ´)ﾉ*: ･ﾟ⁺₊</p>
+                  <h3><a href="https://drive.google.com/file/d/1jlRSBUBgI0JStEHdG6rP2iyHL37RnrCH/view?usp=sharing"> view my resume</a></h3></span>
             </div>
+
 
          </section>
       );

@@ -147,7 +147,7 @@ body {
    font-family: 'Nunito Sans';
    color: #4d4594;
    font-weight: normal;
-   font-size: 15px;
+   font-size: 18px;
    line-height: 30px;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -581,6 +581,7 @@ input[type="checkbox"] { display: inline; }
    width: 96%;
    max-width: 1024px;
    margin: 0 auto;
+   padding-left: 80px;
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
