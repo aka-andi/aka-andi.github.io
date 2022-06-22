@@ -4,7 +4,7 @@ class About extends Component {
    render() {
       return (
          <section id="about">
-            <div className="row about">
+            <div className="text">
                <h2>hello there!  i'm andi.</h2>
                <span><p>
                   i graduated from george mason university with a degree in computer science minoring in art/visual
