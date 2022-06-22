@@ -361,12 +361,21 @@ ul#nav li.brand h2 {
 }
 
 #about {
+   background: url("./../images/fishie.PNG") no-repeat center center;
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
-   width: calc(200% / 3);
-   padding-bottom: 30px;
+   padding: 100px 600px 50px 50px;
+   position: relative;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#about .text {
    text-align: left;
+   width: calc(200% / 3);
 }
 
 #about a,
