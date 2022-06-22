@@ -31,7 +31,7 @@ body {
 .header h1 {
    padding: 20px;
    text-align: center;
-   font: 90px/1.1em;
+   font: 20px;
    font-weight: bold;
    color: #4d4594;
    letter-spacing: 4px;
@@ -195,7 +195,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 80px;
+   font: 12px;
    font-weight: bold;
    letter-spacing: 4px;
    margin: 0 auto 18px auto;
@@ -361,7 +361,7 @@ ul#nav li.brand h2 {
 }
 
 #about {
-   background: url("./../images/fishie.PNG") no-repeat center center;
+   background: url("../images/fishie.PNG") no-repeat center center;
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
