@@ -361,7 +361,7 @@ ul#nav li.brand h2 {
 }
 
 #about {
-   background: url("../images/fishie.png") no-repeat center center;
+   background: url("./../images/fishie.PNG") no-repeat center center;
    display: inline-block;
    vertical-align: middle;
    padding: 60px 600px 50px 50px;
