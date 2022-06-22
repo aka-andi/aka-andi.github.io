@@ -14,6 +14,13 @@
 
    /* header styles
    ------------------------------------------------------------------ */
+   
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
    header .banner-text h1 {
       font: 10px;
       font-weight: bold;
@@ -23,7 +30,7 @@
       text-shadow: 0px 1px 2px #694280;
    }
 
-   
+
    /* About Section
    -------------------------------------------------------------------- */
 
@@ -45,6 +52,13 @@
 
    /* header styles
    ------------------------------------------------------------------ */
+   
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
    header .banner {
       padding-bottom: 12px;
    }
@@ -73,6 +87,7 @@
       font: 14px 'nunito sans';
       letter-spacing: 1.5px;
    }
+
    #nav-wrap h2 {
       font: 20px 'nunito sans';
       letter-spacing: 1.5px;
@@ -133,6 +148,13 @@
 
    /* Header Styles
    -------------------------------------------------------------------- */
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
+
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
@@ -335,6 +357,13 @@
 
    /* header styles
    -------------------------------------------------------------------- */
+   
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
    header .banner {
       padding-top: 24px;
    }
@@ -358,7 +387,7 @@
       margin: 0 6px;
    }
 
-   
+
    /* About Section
    -------------------------------------------------------------------- */
 
