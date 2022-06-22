@@ -364,7 +364,7 @@ ul#nav li.brand h2 {
    background: url("./aka-andi.github.io/fishie.png") no-repeat center center;
    display: inline-block;
    vertical-align: middle;
-   padding: 100px 600px 50px 50px;
+   padding: 60px 600px 50px 50px;
    position: relative;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -379,7 +379,6 @@ ul#nav li.brand h2 {
 
 #about a,
 #about a:visited {
-   text-decoration: underline;
    color: #8458aa;
 }
 
