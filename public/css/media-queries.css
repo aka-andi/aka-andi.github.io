@@ -14,6 +14,14 @@
 
    /* header styles
    ------------------------------------------------------------------ */
+
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
+
    header .banner-text h1 {
       font: 10px;
       font-weight: bold;
@@ -23,7 +31,7 @@
       text-shadow: 0px 1px 2px #694280;
    }
 
-   
+
    /* About Section
    -------------------------------------------------------------------- */
 
@@ -45,6 +53,14 @@
 
    /* header styles
    ------------------------------------------------------------------ */
+
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
+
    header .banner {
       padding-bottom: 12px;
    }
@@ -58,11 +74,6 @@
       text-shadow: 0px 1px 2px #694280;
    }
 
-   header .banner-text h3 {
-      font: 17px/1.9em 'nunito sans';
-      width: 80%;
-   }
-
    header .banner-text hr {
       width: 65%;
       margin: 12px auto;
@@ -73,6 +84,7 @@
       font: 14px 'nunito sans';
       letter-spacing: 1.5px;
    }
+
    #nav-wrap h2 {
       font: 20px 'nunito sans';
       letter-spacing: 1.5px;
@@ -129,10 +141,113 @@
 
 @media only screen and (max-width: 767px) {
 
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap {
+      background: #e3e1fb;
+      letter-spacing: 1.5px;
+      width: auto;
+      position: fixed;
+      top: 0;
+      right: 0;
+   }
 
+   #nav-wrap>a {
+      width: 48px;
+      height: 48px;
+      text-align: left;
+      position: relative;
+      border: none;
+      float: right;
+
+      font: 0/0 a;
+      text-shadow: none;
+      color: transparent;
+
+      position: relative;
+      top: 0px;
+      right: 30px;
+   }
+
+   #nav-wrap>a:before,
+   #nav-wrap>a:after {
+      position: absolute;
+      border: 1px solid #4d4594;
+      box-shadow: 0px 1px 1px #694280;
+      background: #4d4594;
+      top: 40%;
+      left: 20%;
+      right: 20%;
+      content: '';
+   }
+
+   #nav-wrap>a:after {
+      top: 60%;
+   }
+
+   /* toggle buttons */
+   #nav-wrap:not( :target)>a:first-of-type,
+   #nav-wrap:target>a:last-of-type {
+      display: block;
+   }
+
+   /* hide menu panel */
+   #nav-wrap ul#nav {
+      height: auto;
+      display: none;
+      clear: both;
+      width: auto;
+      float: right;
+
+      position: relative;
+      top: 12px;
+      right: 0;
+   }
+
+   ul#nav li.brand h2 {
+      padding: 0;
+   }
+
+   /* display menu panels */
+   #nav-wrap:target>ul#nav {
+      display: block;
+      padding: 30px 20px 48px 20px;
+      background: #e3e1fb;
+      margin: 0 auto;
+      width: 100%;
+      clear: both;
+   }
+
+
+   ul#nav li {
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      padding: 2% 4%;
+      text-align: left;
+      border-bottom: 1px solid #2D2E34;
+      border-bottom-style: dotted;
+   }
+
+   ul#nav li a {
+      display: block;
+      margin: 0;
+      padding: 0;
+      margin: 12px 0;
+      line-height: 16px;
+      /* reset line-height from 48px */
+      border: none;
+   }
 
    /* Header Styles
    -------------------------------------------------------------------- */
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
+
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
@@ -147,11 +262,6 @@
       text-shadow: 0px 1px 2px #694280;
    }
 
-   header .banner-text h3 {
-      font: 16px/1.9em 'nunito sans';
-      width: 85%;
-   }
-
    header .banner-text hr {
       width: 80%;
       margin: 18px auto;
@@ -160,7 +270,6 @@
    /* header social links */
    header .social {
       margin: 18px 0 24px 0;
-      font-size: 24px;
       line-height: 36px;
    }
 
@@ -332,33 +441,37 @@
 
 @media only screen and (max-width: 480px) {
 
+   /* mobile navigation
+   -------------------------------------------------------------------- */
+   #nav-wrap ul#nav {
+      width: auto;
+      float: none;
+   }
 
    /* header styles
    -------------------------------------------------------------------- */
+
+   header {
+      -webkit-background-size: auto 100%;
+      -moz-background-size: auto 100%;
+      -o-background-size: auto 100%;
+      background-size: auto 100%;
+   }
+
    header .banner {
       padding-top: 24px;
    }
 
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;
+      font: 40px/1.1em 'nunito sans';
       margin: 0 auto 24px auto;
-   }
-
-   header .banner-text h3 {
-      font: 14px/1.9em 'nunito sans';
-      width: 90%;
-   }
-
-   /* header social links */
-   header .social {
-      font-size: 20px;
    }
 
    header .social li {
       margin: 0 6px;
    }
 
-   
+
    /* About Section
    -------------------------------------------------------------------- */
 

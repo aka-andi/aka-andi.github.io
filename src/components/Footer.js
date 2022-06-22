@@ -10,7 +10,7 @@ class Footer extends Component {
           <div className="twelve columns">
 
             <ul className="copyright">
-              <li>andi motas &copy; {new Date().getFullYear()}</li>
+              <li>andi motas ⁺₊ {new Date().getFullYear()}</li>
             </ul>
 
           </div>
