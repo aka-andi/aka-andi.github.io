@@ -12,7 +12,7 @@ class About extends Component {
                   full-stack and data engineering skills. i am a big data engineer at oracle opower where i
                   develop software that helps people reduce their energy usage. in my free time i enjoy making art, playing instruments, helping out in the
                   community, and exploring the latest in tech.</p>
-                  <p>you can reach me at <a href="mailto:amotas2@gmu.edu">amotas2@gmu.edu</a> <br></br>(ﾉ´ヮ´)ﾉ*: ･ﾟ⁺₊</p>
+                  <p>you can reach me at <a href="mailto:amotas6@gatech.edu">amotas6@gatech.edu</a> <br></br>(ﾉ´ヮ´)ﾉ*: ･ﾟ⁺₊</p>
                   <h3>mentions:</h3>
                   <ul>
                      <li><a href="https://cahmp.gmu.edu/2022-cahmp-student-entrepreneurship-challenge/">center for the advancement of human-machine partnership ⁺₊ entrepreneurship challenge 2022</a></li>
